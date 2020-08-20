@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+<title>Facebook</title>
+<meta name="viewport" content="width=device-width"> 
+</head>
+
+<body>  
+    <style>
+        body{            
+            background-image: linear-gradient(to top,hsl(226, 51%, 92%), white);
+            height: 952px;
+            width: 1910px;
+            font-size: 30px;
+        } 
+        div.Intro{
+            font-weight: bold;
+            color: 	#003399;            
+            font-size: 140%;
+            margin-left: 25%;             
+            width: 100%; 
+            margin-top: -9%;
+        }
+        form.form-register{           
+            width: 100%;  
+            margin-left: 70%;
+        }
+        div.title{
+            font-size: 200%;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 30%;
+        }
+        div.subtitle{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 100%;
+            margin-top: 0.5%;
+            
+        }
+        input.textname{
+            font-size:80%;
+            border-radius:4px;      
+            border: 1px solid rgb(151, 174, 216);  
+            width: 35%; 
+            margin-top:0.8%;   
+            padding-top:1.5%  ;
+            padding-bottom: 1.5%;
+        }
+        
+        input.txtPhoneNo{
+            font-size: 70%;                        
+            width: 72%;            
+            margin-top: 2%;
+            border-radius: 4px;      
+            border: 1px solid rgb(151, 174, 216);
+            padding-top:1.5%  ;
+            padding-bottom: 1.5%;
+        }
+        input.txtPassword{
+            font-size: 70%;                        
+            width: 72%;            
+            margin-top: 2%;
+            border-radius: 4px;      
+            border: 1px solid rgb(151, 174, 216);
+            padding-top:1.5%  ;
+            padding-bottom: 1.5%;
+        }
+        div.txtBD{
+            font-size: 100%;
+            margin-top: 2%;
+            margin-bottom: -1%;
+            font-family: Arial, Helvetica, sans-serif; 
+        }
+        div.dateofbirth{
+            width: 250%;
+        }
+        select.dayofbirth{
+            width: 12%;           
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top:1%  ;
+            padding-bottom: 1%;
+            margin-right: 1%;
+            font-size: 50%;
+            
+        }
+        
+        select.monthofbirth{
+            width: 25%; 
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top:1%  ;
+            padding-bottom: 1%;
+            margin-right: 1%;
+            font-size: 50%;
+            
+            
+        }   
+        select.yearofbirth{
+            width: 15%;           
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top:1%  ;
+            padding-bottom: 1%;
+            margin-right: 1%;
+            font-size: 50%;
+        } 
+        div.questionDB{
+            font-size: 50%;            
+            margin-left: 65%;
+            width: 100%;  
+            border: none;
+            padding-top: 5%;
+        }
+        div.gender{
+            font-size: 70%;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 2%;
+            margin-left: 2%;
+            
+        }
+        div.policy{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 50%;
+            color: gray;
+            margin-top:2%
+        }
+        a.DK{
+            color: #3366CC;
+            text-decoration-skip: none;
+        }
+        button.button{
+            width: 200px;
+            height: 40px;
+            margin-top: 5%;
+            border-radius: 6px;
+            border: none;
+            color: white;
+            background-color: SeaGreen;
+            display: inline-block;
+            font-weight: bold;
+            font-size: 60%;
+            text-align: center;
+        }
+        div.note{
+            font-size: 55%;
+            margin-top: 3%;
+            font-weight: solid;
+            color: gray;
+            width: 100%;  
+            margin-left: 70%;
+            margin-top:6%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+    </style>
+    <div>
+        <table>
+            <td>
+                <div class="Intro">
+                    <p>Facebook giúp bạn kết nối và chia sẻ với mọi<br> người trong cuộc sống của bạn</p>
+                    <img src="images/Connect.PNG" class="img">
+                </div>
+            </td>
+            <td>
+                <form class="form-register" action="01_Result.html" method="POST">
+                    <div class="title">Đăng ký</div>
+                    <div class="subtitle">Luôn miễn phí.</div>                
+                    <div class="fullname">
+                        <input type="text" class="textname" id="txtLastname" placeholder="Họ"/>       
+                        <input type="text" class="textname" id="txtFirstname" placeholder="Tên"/>
+                    </div>                                  
+                    <div><input type="text" class="txtPhoneNo" placeholder="Số di động hoặc email"/></div>         
+                    <div><input type="text" class="txtPassword" placeholder="Mật khẩu mới"/></div>                 
+                    <div class="txtBD">Ngày sinh</div>
+                    <table>
+                        <td>
+                            <div class="dateofbirth">
+                                <select class="dayofbirth">
+                                    <option>01</option>
+                                    <option>02</option>
+                                    <option>03</option>
+                                    <option>04</option>
+                                    <option>05</option>
+                                    <option>06</option>
+                                    <option>07</option>
+                                    <option>08</option>
+                                    <option>09</option>
+                                    <option>10</option>
+                                    <option>11</option>
+                                    <option>12</option>
+                                    <option>13</option>
+                                    <option>14</option>
+                                    <option>15</option>
+                                    <option>16</option>
+                                    <option>17</option>
+                                    <option>18</option>
+                                    <option>19</option>
+                                    <option>20</option>
+                                    <option>21</option>
+                                    <option>22</option>
+                                    <option>23</option>
+                                    <option>24</option>
+                                    <option>25</option>
+                                    <option>26</option>
+                                    <option selected="selected">27</option>
+                                    <option>28</option>
+                                    <option>29</option>
+                                    <option>30</option>
+                                    <option>31</option>
+                                </select>
+                                <select class="monthofbirth">
+                                    <option>Tháng 01</option>
+                                    <option>Tháng 02</option>
+                                    <option>Tháng 03</option>
+                                    <option>Tháng 04</option>
+                                    <option>Tháng 05</option>
+                                    <option>Tháng 06</option>
+                                    <option>Tháng 07</option>
+                                    <option>Tháng 08</option>
+                                    <option>Tháng 09</option>
+                                    <option>Tháng 10</option>
+                                    <option>Tháng 11</option>
+                                    <option selected="selected">Tháng 12</option>                    
+                                </select>
+                                <select class="yearofbirth">
+                                    <option>1990</option>
+                                    <option>1991</option>
+                                    <option selected="selected">1992</option>
+                                    <option>1993</option>
+                                    <option>1994</option>
+                                    <option>1995</option>
+                                    <option>1996</option>
+                                    <option>1997</option>
+                                    <option>1998</option>
+                                    <option>1999</option>
+                                    <option>2001</option>
+                                    <option>2002</option>
+                                    <option>2003</option>
+                                    <option>2004</option>
+                                    <option>2005</option>
+                                    <option>2006</option>
+                                    <option>2007</option>
+                                    <option>2008</option>
+                                    <option>2009</option>
+                                    <option>2010</option>                                      
+                                    <option>2011</option>
+                                    <option>2012</option>
+                                    <option>2013</option>
+                                    <option>2014</option>
+                                    <option>2015</option>
+                                    <option>2016</option>
+                                </select> 
+                            </div> 
+                        </td> 
+                        <td>
+                            <div class="questionDB">                              
+                                <a href="#" class="DK" style="text-decoration: none;">Tại sao tôi cần cung cấp<br> ngày sinh của mình?</a>
+                            </div>
+                        </td>
+                    </table>
+                    <div class="gender" >
+                        <input type="radio" name="gender" value="Nữ"/>Nữ
+                        <input type="radio" name="gender" value="Nam"/>Nam                               
+                    </div>
+                    <div class="policy">
+                        Bằng cách nhấp vào Tạo tài khoản, bạn đồng ý với <a href="#" class="DK" style="text-decoration: none;">Điều<br> khoản</a> của chúng tôi và rằng bạn đã đọc <a href="" class="DK" style="text-decoration: none;"></a>Chính sách dữ liệu<br></span> 
+                        của chúng tôi, bao gồm <a href="#" class="DK" style="text-decoration: none;">Sử dụng cookie</a>. Bạn có thể nhận<br> được thông báo qua SMS từ Facebook và có thể bỏ chọn<br> bất 
+                        kỳ lúc nào.                    
+                    </div>
+                    <div class="bton" >
+                        <form class="bton" action="01_Result.html" method="get">
+                            <button type="submit" class="button">Tạo tài khoản</button>
+                        </form>
+                    </div>
+                    <div class="note">
+                        <a href="#" class="DK" style="text-decoration: none;"><b>Tạo Trang</b></a> dành cho người nổi tiếng, nhãn hiệu hoặc doanh nghiệp.
+                    </div> 
+                </form>
+            </td>
+    </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width"> 
+<title>Google Account</title>
+</head>
+
+<body>
+    <!--Tạo style cho html-->
+    <style>
+        div.content{
+            width: 1280px;
+            height: 768px;
+            font-size: 30px;
+        }
+        div.title{
+            text-align: center;
+            color: rgb(116, 113, 113);
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 220%;           
+            
+        }
+        div.Intro{
+            text-align: center;
+            margin-left: 15%;
+            margin-top: 3%;
+            width: 100%;
+        }
+        div.p1{
+            font-size: 70%;
+            margin-top: -30%;
+            color:rgb(161, 161, 161);
+        }
+        div.p2{            
+            margin-top: 1%;
+            color:rgb(116, 113, 113);
+            font-size: 90%;
+            
+        }
+        img.icongg{
+            margin-top: 1%;
+        }
+        div.p3{
+            font-size: 70%;
+            margin: 40px 0 0 0 ;
+            color:rgb(161, 161, 161);
+        }
+        div.p4{
+            margin-top: 1%;
+            color:rgb(116, 113, 113);
+            font-size: 90%;
+        }
+        form.form-register{
+            margin-left: 50%;
+            margin-top: 1%;
+            background-color: rgb(240, 240, 240);
+            width: 80%;            
+            border: 1px solid white;
+            font-size: 40%;
+            font-weight: bold;
+            padding-left: 2%;
+        }
+        div.name,div.email,div.password,div.re-password,div.Phonenumber,div.current-email{
+            font-weight: bold;
+            margin: 4% 3% 4% 4%;
+            font-family: Arial, Helvetica, sans-serif;
+        
+        }
+        input.first-name,input.last-name{
+            height: 25px;
+            border-radius: 2px;
+            border: 1px solid rgb(184, 183, 183);
+            margin-top: 5px;           
+            
+        }
+        input.txtemail{
+            height: 25px;
+            width: 330px;
+            border-radius: 2px;
+            border: 1px solid rgb(184, 183, 183); 
+            text-align: right;
+            margin-top: 5px; 
+        }
+        
+        
+        input.Password1,input.Password2{
+            height: 25px;
+            width: 330px;
+            border-radius: 2px;
+            border: 1px solid rgb(184, 183, 183);
+            margin-top: 5px; 
+            
+        }
+        p.pbd,p.pgender,p.plocation{
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 15px;
+            margin-bottom: 5px;
+        }
+        select.dateofbirth{
+            height: 29px;
+            width: 140px;
+            border-radius: 2px;
+            border: 1px solid rgb(184, 183, 183);            
+            margin-left: 15px;
+            background-color:rgb(240, 240, 240) ;
+        }
+        input.dayofbirth{
+            height: 25px;
+            width: 50px;
+            border-radius: 2px;
+            border: 1px solid rgb(184, 183, 183);
+        }
+        input.yearofbirth{
+            height: 25px;
+            width: 115px;
+            border-radius: 2px;
+            border: 1px solid rgb(184, 183, 183);
+        }
+        
+        select.Gender{
+            height: 29px;
+            width: 336px;
+            border-radius: 2px;
+            border: 1px solid rgb(184, 183, 183);
+            margin-left: 15px;
+            background-color:rgb(240, 240, 240) ;
+        }
+        input.mobilephone,input.now-email{
+            height: 25px;
+            width: 330px;
+            border-radius: 2px;
+            border: 1px solid rgb(184, 183, 183);
+            margin-top: 5px; 
+        }
+        select.location{
+            height: 29px;
+            width: 336px;
+            border-radius: 2px;
+            border: 1px solid rgb(184, 183, 183);
+            margin-left: 15px;
+            background-color:rgb(240, 240, 240) ;
+        }
+        button.button{
+            margin-top: 10px;
+            margin-left: 279px;
+            height: 30px;
+            background-color: rgb(76, 151, 236);
+            color: white;
+            border: none;
+            border-radius: 3px;
+            font-weight: bold;
+            padding-bottom: 1%;
+            padding-top: 1%;
+            margin-bottom: 4%;
+        }
+        div.lastword{            
+            margin-left: 50%;
+            color:rgb(116, 113, 113);
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 70%;
+            width: 100%;
+            
+                       
+        }
+        a.note{
+            color: #3366CC;
+            text-decoration-line: none;
+            
+        }
+        
+
+    </style>
+    <!--Hiển thị nội dung html-->
+    <div>
+        <div class="title">
+            <p>Create your Google Account</p>
+        </div>
+        <div class="content">
+            <table>
+                <td>
+                    <div class="Intro">
+                        <div class="p1">One account is all you need</div>
+                        <div class="p2">One free account gets you into everything Google.</div>
+                        <div><img src="images/icongg.png" class="icongg">&nbsp</div>
+                        <div class="p3">Take it all with you</div>
+                        <div class="p4">Switch between devices, and pick up whereever you left off.</div>
+                        <div><img src="images/icondevice.png" class="icondevice"></div>
+                    </div> 
+                </td>   
+                <td>            
+                    <form class="form-register" action="01_Result.html" method="GET">
+                        <div class="name">
+                            <label for="firstname">Name</label><br>
+                            <input type="text" name="firstname" class="first-name" placeholder="First">&nbsp;&nbsp;
+                            <input type="text" name="lastname" class="last-name" placeholder="Last">
+                        </div>
+                        <div class="email">
+                            <label for="e-mail">Choose your username</label><br>
+                            <input type="email" class="txtemail" name="e-mail" placeholder="@gmail.com">
+                            
+                        </div>
+                        <div class="password">
+                            <label for="txtpassword1">Create a password</label><br>
+                            <input type="password" name="txtpassword1" class="Password1">                            
+                        </div>
+                        <div class="re-password">
+                            <label for="txtpassword2">Confirm your password</label><br>
+                            <input type="password" name="txtpassword2" class="Password2">                            
+                        </div>
+                        <div class="DB">
+                            <p class="pbd">Birthday</p>
+                            <select class="dateofbirth" required>
+                                <option value="" name=birthday ><b>Month</b></option>
+                                <option value="t1" name="birthday">01</option>
+                                <option value="t2" name="birthday">02</option>
+                                <option value="t3" name="birthday">03</option>
+                                <option value="t4" name="birthday">04</option>                            
+                                <option value="t5" name="birthday">05</option>
+                                <option value="t6" name="birthday">06</option>
+                                <option value="t7" name="birthday">07</option>
+                                <option value="t8" name="birthday">08</option>
+                                <option value="t9" name="birthday">09</option>
+                                <option value="t10" name="birthday">10</option>
+                                <option value="t11" name="birthday">11</option>
+                                <option value="t12" name="birthday">12</option>                                
+                            </select>
+                            &nbsp;
+                            <input type="text" name="dayofbirth" class="dayofbirth" placeholder="Day">&nbsp;&nbsp;
+                            <input type="text" name="yearofbirth" class="yearofbirth" placeholder="Year">
+                        </div>
+                        <div class="sex">
+                            <p class="pgender">Gender</p>
+                            <select class="Gender" required>
+                                <option value="" name=gender ><b>I am...</b></option>
+                                <option value="t1" name="gender">Male</option>
+                                <option value="t2" name="gender">Female</option>
+                            </select>
+                        </div>
+                        <div class="Phonenumber">
+                            <label for="mobilephone">Mobile phone</label><br>
+                            <input type="tel" name="mobilephone" class="mobilephone" value="+84">
+                        </div>
+                        <div class="current-email">
+                            <label for="now-email">Your current email address</label><br>
+                            <input type="email" name="now-email" class="now-email">                            
+                        </div>
+                        <div class="position">
+                            <p class="plocation">Location</p>
+                            <select class="location" required>
+                                <option value="t1" name=where >Vietnam (Việt Nam)</option> 
+                                <option value="t2" name=where >America (Mỹ)</option>                               
+                            </select>
+                        </div>
+                        <div>
+                            <button class="button">Next step</button>
+                        </div>
+                    </form>
+                    <div class="lastword">
+                        <p></p><a href="#" class="note"><b>Learn more</b></a> about why we ask for this information.</p>
+                    </div>
+                </td>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
